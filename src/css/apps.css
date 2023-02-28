@@ -1,0 +1,127 @@
+#apps {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0 2rem;
+}
+
+
+.app-heading {
+  margin: 0 0 1.4rem 0;
+  font-size: 3rem;
+
+}
+
+.app-postheading {
+  width: 60%;
+  padding-left: 0.1rem;
+  opacity: 0.4;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+
+.app-cards {
+  display: flex;
+  gap: 2rem;
+  margin: 10rem 0;
+}
+
+.app-card {
+  max-width: 350px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 2rem 2.5rem 1rem 2.5rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  /* background-image: linear-gradient(315deg, #ffffff 0%, #d7e1ec 74%); */
+}
+
+/* .tonoter-icon{
+    background-color: rgb(245, 170, 72);
+    color: red;
+    padding: 1rem;
+} */
+
+.app-card-icon {
+  border-radius: 50%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  align-self: baseline;
+}
+
+.tonoter-icon {
+  background-image: linear-gradient(62deg, #fbab7e52 0%, #f7ce6852 100%);
+}
+
+.todoer-icon {
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgba(14, 174, 87, 0.25) 0%,
+    rgba(12, 116, 117, 0.25) 90%
+  );
+}
+
+.app-card-heading {
+  font-family: var(--t-font);
+  font-weight: 700;
+  margin: 1.5rem 0 0 0;
+  font-size: 2.1rem;
+}
+
+.todoer-heading{
+  background: -webkit-linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+.tonoter-heading{
+  background: -webkit-linear-gradient(
+    62deg,
+    rgba(14, 174, 87, 1) 0%,
+    rgba(12, 116, 117, 1) 90%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.app-card-desc {
+  font-size: 0.9rem;
+  margin: 0.75rem 0 3rem 0;
+  /* text-align: center; */
+  opacity: 0.5;
+  font-weight: 500;
+}
+
+.app-card-cta{
+  align-self: baseline;
+  margin: 0 0.1rem 0.2rem 0;
+}
+
+.tonoter-cta a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fbab7e;
+}
+.todoer-cta a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #069a8e;
+}
+
+.apps-decor-image {
+  position: absolute;
+  z-index: -1;
+  left: -25%;
+  top: -12%;
+  opacity: 0.6;
+  width: 75%;
+  transform: rotate(90deg);
+}

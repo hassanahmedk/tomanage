@@ -1,0 +1,129 @@
+#signup {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin: 8% 0 7% 0;
+  justify-content: center;
+}
+
+.signup-left {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 5rem;
+}
+
+.signup-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 2rem;
+}
+
+.signup-heading {
+  font-size: 2rem;
+}
+
+
+.signup-text {
+  margin: 1rem 0 3rem 0;
+  padding-left: 0.1rem;
+  opacity: 0.4;
+  font-weight: 600;
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+
+
+.signup-image {
+  width: 80%;
+  align-self: center;
+}
+
+
+.signup-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signedup-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-left: 4rem;
+  position: absolute;
+}
+
+.signedup-heading{
+  font-weight: 600;
+  font-size: 1.8rem;
+  
+}
+
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 60%;
+  background-color: rgba(255, 255, 255, 0.549);
+  padding: 2.2rem 5rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border-radius: 3px;
+  border-radius: 4px;
+
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.signedup-form-fields{
+  padding: 2.2rem 5rem;
+
+}
+
+
+.signup-field {
+  width: 26rem;
+}
+
+.signup-field-name {
+  width: 12rem;
+}
+
+
+.form-checkbox {
+  align-self: flex-start;
+  font-weight: 400;
+  opacity: 0.8;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+input[type="checkbox"] {
+  padding: 5rem;
+}
+
+.signup-button {
+  font-weight: 600;
+  /* color: aliceblue; */
+  text-transform: uppercase;
+  padding: 0.75rem 1.25rem;
+  border: 0;
+  border-radius: 1px;
+  cursor: pointer;
+  margin-top: 4rem;
+  font-size: 1rem;
+  background-color: var(--blue-lt);
+  color: #f9fafb;
+}
+
+.decor-image-signup {
+    position: absolute;
+    z-index: -2;
+    right: -15%;
+}
